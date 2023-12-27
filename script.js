@@ -68,6 +68,7 @@ const checkIfWon = function (player) {
           }
         }
       }
+      break;
   }
 };
 
