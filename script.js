@@ -35,6 +35,7 @@ const checkIfWon = function (player) {
           }
         }
       }
+      break;
 
     case "o":
       // checking if o won - horizontal
@@ -67,6 +68,7 @@ const checkIfWon = function (player) {
           }
         }
       }
+      break;
   }
 };
 
