@@ -116,6 +116,10 @@ let gameList = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 newGameEl.addEventListener("click", function () {
   newGamePopup.classList.add("hidden");
 });
+winnerPopUpEl.addEventListener("click", function () {
+  winnerPopUpEl.classList.add("hidden");
+  restart();
+});
 for (let i = 0; i < 9; i++) {
   document.getElementById(`${i}`).addEventListener("click", function () {
     if (gameList[i] === 0) {
